@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'user',
     'gomap',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -84,9 +85,9 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'database_balangan',
         'USER': 'postgres',
-        'PASSWORD': 'postgresdb',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '5430',
     }
 }
 
