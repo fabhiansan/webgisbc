@@ -23,4 +23,4 @@ class SaranView(CreateView):
     fields = ['dari', 'sarans']
     
     def get_success_url(self):
-        return reverse('saran')
+        return reverse('index')
