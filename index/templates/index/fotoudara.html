@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% load static %}
+
+{% block heading %}
+<style>
+    a {
+        color:black;
+    }
+</style>
+{% endblock heading %}
+
+{% block content %}
+
+
+{% for file in files %}
+<li>
+<a href='{% get_static_prefix %}media/fotoudara/{{file}}'>{{ file }}</a>
+</li>
+{% endfor %}
+</ul>
+{{ files }}
+{% endblock content %}

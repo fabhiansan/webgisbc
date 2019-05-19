@@ -8,4 +8,5 @@ urlpatterns = [
     path('map2/', views.api),
     path('dmsconverter/', views.dmsconverter, name='dmsconverter'),
     path("degreeconverter/", views.degreeconverter, name='degreeconverter'),
+    path("fotoudara/", views.fotoudara, name='fotoudara'),
 ]
