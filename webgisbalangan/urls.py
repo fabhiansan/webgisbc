@@ -21,5 +21,4 @@ urlpatterns = [
     path('', include('users.urls')),
     path('', include('gomap.urls')),
     path('', include('index.urls')),
-    path('', include('user.urls')),
 ]
